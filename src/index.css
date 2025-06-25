@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import "tailwindcss";
+@plugin "daisyui"{
+  themes: light --default, dark --prefersdark;
+}
+
+
+
+@plugin "daisyui/theme" {
+  name: "light";
+  default: true;
+  --color-primary: #309975;
+  --color-secondary: #58b368;
+  --color-accent: #454d66;
+}
+
+@plugin "daisyui/theme" {
+  name: "dark";
+  --color-primary: #309975;
+  --color-secondary: #58b368;
+  --color-accent: #454d66;
+}
+
+
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
