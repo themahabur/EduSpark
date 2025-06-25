@@ -24,7 +24,8 @@
 
 
 ## 📸 Screenshots
-(Add 2–3 screenshots showcasing homepage, dashboard, and booking form)
+### 🏠 Home Page
+![Home Page]([./public/screenshots/home.png](https://i.ibb.co/V0DSPm4Y/Screenshot-2025-06-25-164234.png))
 
 ## 👨‍💻 Author
 
