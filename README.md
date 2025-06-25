@@ -25,7 +25,7 @@
 
 ## 📸 Screenshots
 ### 🏠 Home Page
-![Home Page]([./public/screenshots/home.png](https://i.ibb.co/V0DSPm4Y/Screenshot-2025-06-25-164234.png))
+![Home Page](https://i.ibb.co/V0DSPm4Y/Screenshot-2025-06-25-164234.png)
 
 ## 👨‍💻 Author
 
