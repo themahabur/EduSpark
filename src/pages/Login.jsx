@@ -122,7 +122,7 @@ const Login = () => {
             <div>
               <button
                 type="submit"
-                className="cursor-pointer flex w-full justify-center rounded-md bg-primary px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-primary focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
+                className="cursor-pointer flex w-full justify-center rounded-md btn-primary btn text-sm/6 font-semibold  shadow-xs  focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
               >
                 Sign in
               </button>
@@ -142,7 +142,7 @@ const Login = () => {
                 <button
                   onClick={handleGoogleLogin}
                   type="button"
-                  className="inline-flex w-full justify-center items-center gap-2 rounded-md bg-white btn text-sm/6 font-semibold text-gray-900  ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+                  className="inline-flex w-full justify-center items-center gap-2 btn bg-white text-black border-[#e5e5e5] text-sm/6 font-semibold "
                 >
                   <FcGoogle size={20} />
                   Google

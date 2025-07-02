@@ -14,7 +14,7 @@ const NotFoundPage = () => {
            </div>
             <p className="mt-4 text-gray-700 text-2xl">Sorry, the page you are looking for does not exist.</p>
             <p className="mt-2 text-gray-500">Please check the URL or return to the homepage.</p>
-            <Link to="/" className="mt-6 btn bg-primary text-white rounded ">
+            <Link to="/" className="mt-6 btn btn-soft btn-primary rounded">
                 Go to Homepage
             </Link>
         </div>

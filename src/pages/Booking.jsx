@@ -219,7 +219,7 @@ const Booking = () => {
             </div>
           </div>
           <div className="text-center">
-            <button type="submit" className="btn btn-primary w-full text-white">
+            <button type="submit" className="btn btn-soft btn-primary rounded w-full">
               Purchase
             </button>
           </div>

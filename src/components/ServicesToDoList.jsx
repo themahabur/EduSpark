@@ -44,7 +44,7 @@ const ServicesToDoList = ({ services }) => {
           <p className="text-lg">No services found.</p>
         </div>
       ) : (
-        <div className="grid grid-cols-1  gap-6 p-4">
+        <div className="grid md:grid-cols-2 grid-cols-1  gap-6 p-4">
           {toDoServicesList.map((service) => (
             <ToDoServicesCard
               key={service._id}

@@ -16,7 +16,7 @@ const ErrorPage = () => {
 
      <button
       onClick={() => window.location.reload()}
-      className="mt-6 btn bg-primary text-white rounded ">Try again</button>
+      className="btn btn-soft btn-primary rounded mt-6">Try again</button>
     </div>
   );
 };

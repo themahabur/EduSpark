@@ -117,7 +117,7 @@ const AddService = () => {
           <div className="p-4">
             <button
               type="submit"
-              className="w-full bg-primary text-white p-2 rounded-md cursor-pointer"
+              className="w-full btn btn-soft btn-primary rounded  p-2 cursor-pointer"
             >
               Add Service
             </button>

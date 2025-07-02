@@ -239,7 +239,7 @@ const Register = () => {
                 <button
                   onClick={handleGoogleLogin}
                   type="button"
-                  className="inline-flex w-full justify-center items-center gap-2 rounded-md bg-white btn text-sm/6 font-semibold text-gray-900  ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
+                  className="inline-flex w-full justify-center items-center gap-2 btn btn-soft btn-primary rounded-md bg-white text-sm/6 font-semibold text-gray-900  ring-1 ring-inset ring-gray-300 hover:bg-gray-50"
                 >
                   <FcGoogle size={20} />
                   Google

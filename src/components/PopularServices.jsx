@@ -12,7 +12,7 @@ const PopularServices = ({ servicesData }) => {
         ))}
       </div>
       <div className="text-center p-4">
-        <Link to="/services" className="btn btn-primary text-white">Show All Services</Link>
+        <Link to="/services" className="btn btn-soft btn-primary rounded">Show All Services</Link>
       </div>
     </div>
   );

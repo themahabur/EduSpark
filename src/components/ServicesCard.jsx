@@ -25,7 +25,7 @@ const ServicesCard = ({ service }) => {
         </p>
         <div className="flex items-center justify-between ">
           <p className="font-semibold ">Price: ${service.price}</p>
-          <Link to={`/services/${service._id}`} className="btn btn-primary text-white ">View Details</Link>
+          <Link to={`/services/${service._id}`} className="btn btn-soft btn-primary rounded">View Details</Link>
         </div>
       </div>
     </div>

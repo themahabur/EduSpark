@@ -57,12 +57,12 @@ const ServiceDetails = () => {
             <div className="flex items-center justify-between">
               <h1 className="text-3xl font-bold">Price: ${price}</h1>
               {serviceData.data.providerEmail === user?.email ? (
-                <button className="btn btn-disabled text-white ">
+                <button className="btn btn-soft btn-primary rounded btn-disabled  ">
                   Book Now
                 </button>
               ) : (
                 <Link to={`/booking/${serviceData.data._id}`}>
-                  <button className="btn btn-primary text-white ">
+                  <button className="btn btn-soft btn-primary rounded  ">
                     Book Now
                   </button>
                 </Link>
